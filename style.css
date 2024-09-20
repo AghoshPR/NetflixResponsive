@@ -420,5 +420,8 @@ body{
         flex-direction: column;
         gap: 15px;
     }
+    #innerbtn{
+        display: none;
+    }
 }
 
