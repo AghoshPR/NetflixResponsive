@@ -1,0 +1,424 @@
+*{
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+   
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #000000;
+}
+
+.section {
+    height: 600px;
+    background-image: url(backgroundimg.png);
+    overflow: hidden;
+    width: 100%;
+}
+
+#innerbtn{
+    background-color: black;
+    border: 1px solid white;
+    
+}
+.rowhead {
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 5px;
+    
+}
+.para{
+    font-weight: 400;
+}
+.head h1{
+    font-size: 56px;
+    font-weight: 900;
+}
+
+.thirdhead h3{
+    padding-left: 5%;
+    padding-right: 5%;
+    
+}
+.parafoot{
+    /* margin-left: 475px; */
+    color: white;
+    font-size: 18px;
+    margin-top: 90px;
+    width: 100%;
+}
+.navlogo img{
+
+    height: 95px;
+    width: 120px;
+}
+.box-one{
+    margin-top: 25px;
+    text-align: end;
+    margin-right: 50px;
+}
+
+
+#emailbtn{
+    height: 53px;
+    width: 11rem;
+    margin-bottom: 6px;
+    /* font-size: 24px; */
+}
+
+.email input{
+    height: 50px;
+    width: 395px;
+    font-size: 16px;
+    background-color: #000000;
+    border: 1px solid grey;
+    color: white;
+}
+::placeholder{
+    color: grey;
+}
+
+
+
+.para{
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo img{
+
+    height: 100px;
+    width: 215px;
+    margin-left: 100px;
+}
+.topdivision{
+    display: flex;
+}
+
+.thirdhero{
+    padding-left: 105px;
+    padding-right: 105px;
+    width: 100%;
+}
+
+.fourthhero{
+
+    padding-left: 105px;
+    padding-right: 105px;
+    width: 100%;
+}
+
+
+/* footer */
+
+.footform{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.emailfoot input{
+    background-color: #000000;
+}
+.emailfoot ::placeholder{
+    color: grey;
+}
+
+.searchtool input{
+    height: 50px;
+    width: 600px;
+    font-size: 16px;
+  
+    border: 1px solid white;
+    
+
+}
+
+::placeholder{
+    color: grey;
+}
+
+#footbtn{
+    height: 35px;
+    /* width: 95px; */
+    /* padding-left: 8px; */
+}
+
+
+@media  (max-width:1270px) {
+
+    .head h1{
+        font-size: 40px;
+        font-weight: 600;
+    }
+
+    #emailbtn {
+        height: 56px;
+        width: 185px;
+        margin-bottom: 6px;
+        font-size: 24px;
+    }
+
+    #rowid{
+        margin-top: 55px;
+    }
+    .email input {
+        height: 55px;
+        width: 330px;
+        font-size: 16px;
+        background-color: #000000;
+        border: 1px solid white;
+        color: white;
+    }
+    
+    .emailfoot{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .searchtool input{
+        height: 55px;
+        /* width: 498px; */
+        font-size: 16px;
+        border: 1px solid grey;
+        
+    
+    }
+
+    #searchfoot{
+        background-color: black;
+        color: white;
+        border: 1px solid grey;
+        width: 490px;
+    }
+    
+     #searchfoot::placeholder{
+        color: grey
+        
+    }
+
+    .parafoot{
+        /* margin-left: 320px; */
+        color: white;
+        font-size: 18px;
+        margin-top: 90px;
+        overflow: hidden;
+    }
+}
+
+@media (max-width:950px){
+
+    .head h1{
+        font-size: 35px;
+        font-weight: 500;
+    }
+
+    #emailbtn {
+        height: 55px;
+        width: 175px;
+        font-size: 16px;
+        border: 1px solid white;
+        color: white;
+        font-weight: 600;   
+    }
+
+
+
+    #rowid{
+        margin-top: 55px;
+    }
+    .email input {
+        height: 55px;
+        width: 300px;
+        font-size: 16px;
+        background-color: #000000;
+        border: 1px solid white;
+        color: white;
+    }
+    
+    .emailfoot{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .searchtool input{
+        height: 55px;
+        /* width: 650px; */
+        font-size: 16px;
+        border: 1px solid grey;
+        
+    
+    }
+
+    #searchfoot{
+        background-color: black;
+        color: white;
+        border: 1px solid grey;
+        width: 703px;
+    }
+    
+    ::placeholder{
+        color: grey;
+    }
+
+    .parafoot{
+        /* margin-left: 185px; */
+        color: white;
+        font-size: 18px;
+        margin-top: 90px;
+    }
+
+}
+
+
+
+@media (max-width:590px){
+
+    .logo img {
+        height: 84px;
+        width: 142px;
+        margin-left: -10px;
+    }
+
+    .box-one {
+        margin-top: 25px;
+        text-align: end;
+        margin-right: 5px;
+    }
+
+    .email {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .footpara{
+        font-size: 14px;
+    }
+
+    .emailfoot{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .email input{
+        height: 55px;
+        width: 496px;
+        font-size: 16px;
+        background-color: #000000;
+        border: 1px solid white;
+        color: white;
+    }
+
+    #emailbtn {
+        height: 55px;
+        width: 205px;
+        font-size: 16px;
+        border: 1px solid white;
+        color: white;
+    }
+
+    
+    #searchfoot{
+        background-color: black;
+        color: white;
+        border: 1px solid grey;
+        width: 350px;
+    }
+
+    #hidden {
+        display: none;
+        
+    }
+
+    .searchtool{
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+
+@media (max-width:420px){
+
+    .logo img {
+        height: 84px;
+        width: 142px;
+        margin-left: -10px;
+    }
+
+    .box-one {
+        margin-top: 25px;
+        text-align: end;
+        margin-right: 5px;
+    }
+
+    .email {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .footpara{
+        font-size: 14px;
+    }
+
+    .emailfoot {
+        display: flex;
+        flex-direction: column;
+        margin-left: 17px;
+    }
+
+    .email input {
+        height: 55px;
+        width: 370px;
+        font-size: 16px;
+        background-color: #000000;
+        border: 1px solid white;
+        color: white;
+    }
+
+    #hide{
+        display: none;
+    }
+
+    #emailbtn {
+        height: 55px;
+        width: 205px;
+        font-size: 16px;
+        border: 1px solid white;
+        color: white;
+    }
+
+    
+    #searchfoot{
+        background-color: black;
+        color: white;
+        border: 1px solid grey;
+        width: 350px;
+    }
+
+    #hide {
+        display: none;
+        
+    }
+
+    .searchtool{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .footform{
+
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+}
+
