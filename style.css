@@ -343,7 +343,7 @@ body{
 }
 
 
-@media (max-width:420px){
+@media (max-width:420px ) and (min-width:375px){
 
     .logo img {
         height: 84px;
