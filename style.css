@@ -21,6 +21,8 @@ body{
     border: 1px solid white;
     
 }
+
+
 .rowhead {
     padding-left: 10%;
     padding-right: 10%;
@@ -41,7 +43,7 @@ body{
     
 }
 .parafoot{
-    /* margin-left: 475px; */
+    
     color: white;
     font-size: 18px;
     margin-top: 90px;
@@ -63,7 +65,7 @@ body{
     height: 53px;
     width: 11rem;
     margin-bottom: 6px;
-    /* font-size: 24px; */
+   
 }
 
 .email input{
@@ -143,8 +145,7 @@ body{
 
 #footbtn{
     height: 35px;
-    /* width: 95px; */
-    /* padding-left: 8px; */
+    
 }
 
 
@@ -181,11 +182,8 @@ body{
     
     .searchtool input{
         height: 55px;
-        /* width: 498px; */
         font-size: 16px;
         border: 1px solid grey;
-        
-    
     }
 
     #searchfoot{
@@ -201,7 +199,7 @@ body{
     }
 
     .parafoot{
-        /* margin-left: 320px; */
+        
         color: white;
         font-size: 18px;
         margin-top: 90px;
@@ -246,7 +244,6 @@ body{
     
     .searchtool input{
         height: 55px;
-        /* width: 650px; */
         font-size: 16px;
         border: 1px solid grey;
         
@@ -265,7 +262,6 @@ body{
     }
 
     .parafoot{
-        /* margin-left: 185px; */
         color: white;
         font-size: 18px;
         margin-top: 90px;
@@ -425,3 +421,4 @@ body{
     }
 }
 
+/* end */
